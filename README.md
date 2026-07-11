@@ -5,20 +5,26 @@
 <br/>
 
 <a href="https://github.com/pcpitroda">
-  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+full-stack+products+with+in[...]
+  <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+full-stack+products+with+intention;Shipping+ML+models+that+actually+work;Learning+in+public%2C+one+commit+at+a+time" alt="typing animation" />
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/status-actively%20building-6366F1?style=for-the-badge&labelColor=09090B" alt="status"/>
-<img src="https://img.shields.io/badge/focus-AI%20%2B%20Full--Stack-8B5CF6?style=for-the-badge&labelColor=09090B" alt="focus"/>
-<img src="https://img.shields.io/badge/based%20in-India-3B82F6?style=for-the-badge&labelColor=09090B" alt="location"/>
+<a href="https://github.com/pcpitroda" target="_blank">
+  <img src="https://img.shields.io/badge/status-actively%20building-6366F1?style=for-the-badge&labelColor=09090B" alt="status"/>
+</a>
+<a href="https://github.com/pcpitroda" target="_blank">
+  <img src="https://img.shields.io/badge/focus-AI%20%2B%20Full--Stack-8B5CF6?style=for-the-badge&labelColor=09090B" alt="focus"/>
+</a>
+<a href="https://github.com/pcpitroda" target="_blank">
+  <img src="https://img.shields.io/badge/based%20in-India-3B82F6?style=for-the-badge&labelColor=09090B" alt="location"/>
+</a>
 
 <br/>
 
-<a href="https://linkedin.com/in/priyanshi-pitroda"><img src="https://img.shields.io/badge/LinkedIn-connect-6366F1?style=flat-square&logo=linkedin&logoColor=white&labelColor=09090B" alt="linkedin"[...]
-<a href="mailto:pcpitroda5@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hello-8B5CF6?style=flat-square&logo=gmail&logoColor=white&labelColor=09090B" alt="email"/></a>
-<a href="https://github.com/pcpitroda"><img src="https://img.shields.io/badge/GitHub-follow-3B82F6?style=flat-square&logo=github&logoColor=white&labelColor=09090B" alt="github"/></a>
+<a href="https://linkedin.com/in/priyanshi-pitroda" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-connect-6366F1?style=flat-square&logo=linkedin&logoColor=white&labelColor=09090B" alt="linkedin"/></a>
+<a href="mailto:pcpitroda05@gmail.com"><img src="https://img.shields.io/badge/Email-say%20hello-8B5CF6?style=flat-square&logo=gmail&logoColor=white&labelColor=09090B" alt="email"/></a>
+<a href="https://github.com/pcpitroda" target="_blank"><img src="https://img.shields.io/badge/GitHub-follow-3B82F6?style=flat-square&logo=github&logoColor=white&labelColor=09090B" alt="github"/></a>
 <img src="https://komarev.com/ghpvc/?username=pcpitroda&style=flat-square&color=6366f1&label=profile+views" alt="profile views"/>
 
 </div>
@@ -33,9 +39,9 @@
 
 ## <img src="https://api.iconify.design/lucide:sparkles.svg?color=%236366F1" width="22"/>&nbsp; About Me
 
-I'm **Priyanshi Pitroda** — a software developer who likes the unglamorous middle of a product: the part between the pitch and the launch, where a model has to actually run in production and a U[...]
+I'm **Priyanshi Pitroda** — a software developer who likes the unglamorous middle of a product: the part between the pitch and the launch, where a model has to actually run in production and a UI has to actually work.
 
-I work across the full stack — **React** on the front, **Flask / PHP** on the back, **MySQL / Firebase** underneath — and I spend the rest of my time in **AI**, mostly **PyTorch** and computer[...]
+I work across the full stack — **React** on the front, **Flask / PHP** on the back, **MySQL / Firebase** underneath — and I spend the rest of my time in **AI**, mostly **PyTorch** and computer vision.
 
 Currently pursuing my **Master of Computer Applications (MCA)** at **Parul University**, where coursework meets side projects meets a slowly-growing GitHub graph.
 
@@ -99,7 +105,7 @@ class Priyanshi:
 
 <!-- ============================ TECH STACK ============================ -->
 
-<object data="./assets/techstack.svg" type="image/svg+xml" width="100%" style="display: block;"></object>
+<img src="./assets/techstack.svg" width="100%" alt="Tech Stack" />
 
 <br/>
 
@@ -311,13 +317,13 @@ A JSP-based booking platform that lets event organisers discover and book music 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pcpitroda&show_icons=true&theme=react&bg_color=09090B&title_color=6366F1&icon_color=8B5CF6&text_color=A1A1AA&border_color=1F1F27&bord[...]
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pcpitroda&theme=react&background=09090B&stroke=1F1F27&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1&sideLabels=A1A1AA&currStreakN[...]
+<img src="https://github-readme-stats.vercel.app/api?username=pcpitroda&show_icons=true&theme=react&bg_color=09090B&title_color=6366F1&icon_color=8B5CF6&text_color=A1A1AA&border_color=1F1F27&border_radius=16&hide_border=false&hide=prs&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pcpitroda&theme=react&background=09090B&stroke=1F1F27&ring=6366F1&fire=8B5CF6&currStreakLabel=6366F1&sideLabels=A1A1AA&currStreakNum=FF6B6B&sideNums=A1A1AA" alt="GitHub Streak Stats" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pcpitroda&layout=compact&theme=react&bg_color=09090B&title_color=6366F1&text_color=A1A1AA&border_color=1F1F27&border_radiu[...]
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pcpitroda&theme=react-dark&bg_color=09090B&color=A1A1AA&line=6366F1&point=8B5CF6&area=true&hide_border=true&area_color=636[...]
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pcpitroda&layout=compact&theme=react&bg_color=09090B&title_color=6366F1&text_color=A1A1AA&border_color=1F1F27&border_radius=16&hide_border=false&langs_count=8" alt="Top Languages" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pcpitroda&theme=react-dark&bg_color=09090B&color=A1A1AA&line=6366F1&point=8B5CF6&area=true&hide_border=true&area_color=6366F1&title_color=6366F1" alt="Contribution Graph" />
 
 </div>
 
@@ -449,10 +455,10 @@ A JSP-based booking platform that lets event organisers discover and book music 
 <a href="mailto:pcpitroda05@gmail.com">
   <img src="https://img.shields.io/badge/Email-pcpitroda05%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B" />
 </a>
-<a href="https://linkedin.com/in/priyanshi-pitroda">
+<a href="https://linkedin.com/in/priyanshi-pitroda" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-priyanshi--pitroda-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=09090B" />
 </a>
-<a href="https://github.com/pcpitroda">
+<a href="https://github.com/pcpitroda" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-pcpitroda-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=09090B" />
 </a>
 
