@@ -458,10 +458,6 @@ A JSP-based booking platform that lets event organisers discover and book music 
 
 </div>
 
-<br/>
-
-<img src="./assets/footer.svg" width="100%" alt="" />
-<img src="./assets/wave.svg" width="100%" alt="" />
 
 <div align="center">
 <sub>Thanks for reading all the way down. ⭐ this profile if you'd like to see where it goes next.</sub>
