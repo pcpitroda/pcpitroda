@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <style>
+      :root {
+        --bg-color: #FAF9F6;
+        --text-primary: #121212;
+        --text-secondary: #5A5A55;
+        --accent-primary: #C5A880; /* Gold */
+        --accent-secondary: #0F766E; /* Emerald */
+        --border-color: #E6E4DF;
+        --font-serif: "Playfair Display", "Georgia", serif;
+        --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+        --font-mono: "JetBrains Mono", monospace;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #0D0D0D;
+          --text-primary: #FAF9F6;
+          --text-secondary: #8E8D8A;
+          --accent-primary: #E0C097;
+          --accent-secondary: #10B981;
+          --border-color: #222222;
+        }
+      }
+
+      .bg-rect { fill: var(--bg-color); transition: fill 0.4s ease; }
+      .timeline-path { fill: none; stroke: var(--accent-primary); stroke-dasharray: 6 3; stroke-width: 1.5; transition: stroke 0.4s ease; }
+      .node-circle { fill: var(--bg-color); stroke: var(--accent-secondary); stroke-width: 2; transition: fill 0.4s ease, stroke 0.4s ease; }
+      .node-core { fill: var(--accent-secondary); transition: fill 0.4s ease; }
+      
+      .text-num { font-family: var(--font-mono); font-size: 11px; fill: var(--accent-primary); font-weight: 600; }
+      .text-title { font-family: var(--font-serif); font-size: 18px; fill: var(--text-primary); transition: fill 0.4s ease; }
+      .text-desc { font-family: var(--font-sans); font-size: 13px; fill: var(--text-secondary); line-height: 1.5; transition: fill 0.4s ease; }
+      
+      .grid-lines { stroke: var(--border-color); stroke-width: 0.5; opacity: 0.5; transition: stroke 0.4s ease; }
+    </style>
+  </defs>
+
+  <rect class="bg-rect" width="100%" height="100%" />
+
+  <!-- Background structure grid lines -->
+  <line class="grid-lines" x1="100" y1="0" x2="100" y2="300" />
+  <line class="grid-lines" x1="1100" y1="0" x2="1100" y2="300" />
+  <line class="grid-lines" x1="0" y1="150" x2="1200" y2="150" opacity="0.3" />
+
+  <!-- Flowing Timeline Curve -->
+  <!-- A gentle sinusoidal Bezier spline curve moving across the screen -->
+  <path class="timeline-path" d="M 100 150 C 250 80, 350 220, 500 150 C 650 80, 750 220, 900 150 C 1000 100, 1050 150, 1100 150" />
+
+  <!-- Node 01: 2024 -->
+  <g transform="translate(180, 110)">
+    <circle class="node-circle" cx="0" cy="40" r="10" />
+    <circle class="node-core" cx="0" cy="40" r="4" />
+    <text class="text-num" x="-10" y="0">01 / ORIGIN</text>
+    <text class="text-title" x="-10" y="20">Academic Foundations</text>
+    <text class="text-desc" x="-10" y="70">
+      <tspan x="-10" dy="0">Commenced MCA degree,</tspan>
+      <tspan x="-10" dy="16">focusing on computation</tspan>
+      <tspan x="-10" dy="16">and algorithmic logic.</tspan>
+    </text>
+  </g>
+
+  <!-- Node 02: Web Development -->
+  <g transform="translate(410, 150)">
+    <circle class="node-circle" cx="0" cy="0" r="10" />
+    <circle class="node-core" cx="0" cy="0" r="4" />
+    <text class="text-num" x="-10" y="-45">02 / STRUCTURE</text>
+    <text class="text-title" x="-10" y="-25">Digital Architectures</text>
+    <text class="text-desc" x="-10" y="25">
+      <tspan x="-10" dy="0">Constructed end-to-end</tspan>
+      <tspan x="-10" dy="16">web interfaces using clean,</tspan>
+      <tspan x="-10" dy="16">semantic architectures.</tspan>
+    </text>
+  </g>
+
+  <!-- Node 03: AI / ML -->
+  <g transform="translate(640, 110)">
+    <circle class="node-circle" cx="0" cy="40" r="10" />
+    <circle class="node-core" cx="0" cy="40" r="4" />
+    <text class="text-num" x="-10" y="0">03 / COGNITION</text>
+    <text class="text-title" x="-10" y="20">Intelligence Models</text>
+    <text class="text-desc" x="-10" y="70">
+      <tspan x="-10" dy="0">Synthesized machine learning</tspan>
+      <tspan x="-10" dy="16">workflows, natural language</tspan>
+      <tspan x="-10" dy="16">pipelines, and computer vision.</tspan>
+    </text>
+  </g>
+
+  <!-- Node 04: Data Science -->
+  <g transform="translate(870, 150)">
+    <circle class="node-circle" cx="0" cy="0" r="10" />
+    <circle class="node-core" cx="0" cy="0" r="4" />
+    <text class="text-num" x="-10" y="-45">04 / INSIGHT</text>
+    <text class="text-title" x="-10" y="-25">Analytical Synthesis</text>
+    <text class="text-desc" x="-10" y="25">
+      <tspan x="-10" dy="0">Dissected datasets via</tspan>
+      <tspan x="-10" dy="16">structured analytical tools</tspan>
+      <tspan x="-10" dy="16">and statistical modeling.</tspan>
+    </text>
+  </g>
+
+  <!-- Node 05: Target -->
+  <g transform="translate(1040, 110)">
+    <circle class="node-circle" cx="0" cy="40" r="6" />
+    <circle cx="0" cy="40" r="2" fill="var(--accent-primary)" />
+    <text class="text-num" x="-60" y="20">05 / FUTURE</text>
+    <text class="text-title" x="-60" y="0" font-size="15px">Next Horizon</text>
+  </g>
+</svg>
