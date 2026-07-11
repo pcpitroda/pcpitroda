@@ -7,51 +7,27 @@
     </linearGradient>
     <clipPath id="tsClip"><rect width="1600" height="200" rx="24"/></clipPath>
     <style>
-      @keyframes slideInChip1 {
-        0% { opacity: 0; transform: translateX(20px); }
-        100% { opacity: 1; transform: translateX(0px); }
-      }
-      @keyframes slideInChip2 {
-        0% { opacity: 0; transform: translateX(20px); }
-        100% { opacity: 1; transform: translateX(0px); }
-      }
-      @keyframes slideInChip3 {
-        0% { opacity: 0; transform: translateX(20px); }
-        100% { opacity: 1; transform: translateX(0px); }
-      }
-      @keyframes slideInChip4 {
+      @keyframes slideInChip {
         0% { opacity: 0; transform: translateX(20px); }
         100% { opacity: 1; transform: translateX(0px); }
       }
       
-      @keyframes floatChip1 {
+      @keyframes floatChip {
         0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
-      }
-      @keyframes floatChip2 {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
-      }
-      @keyframes floatChip3 {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
-      }
-      @keyframes floatChip4 {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-15px); }
+        50% { transform: translateY(-12px); }
       }
       
       .chip1 { 
-        animation: slideInChip1 0.8s ease-out 0.2s both, floatChip1 3.5s ease-in-out 2s infinite;
+        animation: slideInChip 1s cubic-bezier(0.34, 1.56, 0.64, 1) 0.1s both, floatChip 4s cubic-bezier(0.42, 0, 0.58, 1) 1.1s infinite;
       }
       .chip2 { 
-        animation: slideInChip2 0.8s ease-out 0.4s both, floatChip2 3.5s ease-in-out 2.3s infinite;
+        animation: slideInChip 1s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both, floatChip 4s cubic-bezier(0.42, 0, 0.58, 1) 1.2s infinite;
       }
       .chip3 { 
-        animation: slideInChip3 0.8s ease-out 0.6s both, floatChip3 3.5s ease-in-out 2.6s infinite;
+        animation: slideInChip 1s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both, floatChip 4s cubic-bezier(0.42, 0, 0.58, 1) 1.3s infinite;
       }
       .chip4 { 
-        animation: slideInChip4 0.8s ease-out 0.8s both, floatChip4 3.5s ease-in-out 2.9s infinite;
+        animation: slideInChip 1s cubic-bezier(0.34, 1.56, 0.64, 1) 0.4s both, floatChip 4s cubic-bezier(0.42, 0, 0.58, 1) 1.4s infinite;
       }
     </style>
   </defs>
