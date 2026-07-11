@@ -23,10 +23,36 @@
         0% { opacity: 0; transform: translateX(20px); }
         100% { opacity: 1; transform: translateX(0px); }
       }
-      .chip1 { animation: slideInChip1 0.8s ease-out 0.2s both; }
-      .chip2 { animation: slideInChip2 0.8s ease-out 0.4s both; }
-      .chip3 { animation: slideInChip3 0.8s ease-out 0.6s both; }
-      .chip4 { animation: slideInChip4 0.8s ease-out 0.8s both; }
+      
+      @keyframes floatChip1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+      @keyframes floatChip2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+      @keyframes floatChip3 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+      @keyframes floatChip4 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+      }
+      
+      .chip1 { 
+        animation: slideInChip1 0.8s ease-out 0.2s both, floatChip1 3.5s ease-in-out 2s infinite;
+      }
+      .chip2 { 
+        animation: slideInChip2 0.8s ease-out 0.4s both, floatChip2 3.5s ease-in-out 2.3s infinite;
+      }
+      .chip3 { 
+        animation: slideInChip3 0.8s ease-out 0.6s both, floatChip3 3.5s ease-in-out 2.6s infinite;
+      }
+      .chip4 { 
+        animation: slideInChip4 0.8s ease-out 0.8s both, floatChip4 3.5s ease-in-out 2.9s infinite;
+      }
     </style>
   </defs>
   
@@ -49,7 +75,7 @@
     <!-- Main title -->
     <text x="60" y="150" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5px">Tech Stack</text>
     
-    <!-- Animated chips - with proper spacing -->
+    <!-- Animated chips - with proper spacing and continuous floating animation -->
     
     <!-- Chip 1: AI / PyTorch -->
     <g class="chip1">
