@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=500&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=Building+full-stack+products+with+intent;Training+models%2C+shipping+interfaces;React+%2B+Flask+%2B+PyTorch%2C+end+to+end;MCA+candidate+%40+Parul+University" alt="Typing SVG" />
 </a>
 
-<br/><br/>
+<br/>
 
 <img src="https://img.shields.io/badge/status-actively%20building-6366F1?style=for-the-badge&labelColor=09090B" alt="status"/>
 <img src="https://img.shields.io/badge/focus-AI%20%2B%20Full--Stack-8B5CF6?style=for-the-badge&labelColor=09090B" alt="focus"/>
