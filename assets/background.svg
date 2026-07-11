@@ -1,45 +1,144 @@
 <svg width="1600" height="360" viewBox="0 0 1600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgPanel" x1="0" y1="0" x2="1600" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0D0D12"/>
-      <stop offset="100%" stop-color="#09090B"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.5">
-      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0.9" cy="0.85" r="0.55">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.2" cy="1.2" r="1.2" fill="#FFFFFF" fill-opacity="0.05"/>
-    </pattern>
-    <clipPath id="bClip"><rect width="1600" height="360" rx="28"/></clipPath>
-    <style>
-      .mark { font: 700 120px Georgia, 'Times New Roman', serif; fill: #FFFFFF; fill-opacity: 0.08; }
-      .float { animation: fl 8s ease-in-out infinite; }
-      @keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-      .eyebrow { font: 600 14px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; letter-spacing: 4px; fill: #8B5CF6; }
-      .quote { font: 600 30px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #FFFFFF; }
-      .quote2 { font: 400 30px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #A1A1AA; }
-    </style>
-  </defs>
-  <g clip-path="url(#bClip)">
-    <rect width="1600" height="360" fill="url(#bgPanel)"/>
-    <rect width="1600" height="360" fill="url(#dots)"/>
-    <rect width="1600" height="360" fill="url(#glowA)"/>
-    <rect width="1600" height="360" fill="url(#glowB)"/>
-    <text x="70" y="150" class="mark">“</text>
-    <text x="1440" y="330" class="mark" text-anchor="end">”</text>
 
-    <text x="800" y="130" text-anchor="middle" class="eyebrow">DEVELOPER PHILOSOPHY</text>
-    <text x="800" y="185" text-anchor="middle" class="quote">Code that works is the beginning, not the finish line.</text>
-    <text x="800" y="225" text-anchor="middle" class="quote2">Clear enough to trust, intelligent enough to be worth trusting.</text>
+<defs>
 
-    <g class="float">
-      <rect x="700" y="255" width="200" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.1"/>
-      <text x="800" y="282" text-anchor="middle" class="eyebrow" fill="#A1A1AA" letter-spacing="2">— PRIYANSHI PITRODA</text>
-    </g>
-  </g>
+<linearGradient id="bgPanel" x1="0" y1="0" x2="1600" y2="360" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#09090B"/>
+<stop offset="50%" stop-color="#111827"/>
+<stop offset="100%" stop-color="#09090B"/>
+</linearGradient>
+
+<radialGradient id="glowA"
+cx="0"
+cy="0"
+r="1"
+gradientUnits="userSpaceOnUse"
+gradientTransform="translate(320 80) scale(420)">
+<stop offset="0%" stop-color="#6366F1" stop-opacity="0.35"/>
+<stop offset="55%" stop-color="#6366F1" stop-opacity="0.12"/>
+<stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="glowB"
+cx="0"
+cy="0"
+r="1"
+gradientUnits="userSpaceOnUse"
+gradientTransform="translate(1280 280) scale(520)">
+<stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.28"/>
+<stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.10"/>
+<stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="centerGlow"
+cx="0"
+cy="0"
+r="1"
+gradientUnits="userSpaceOnUse"
+gradientTransform="translate(800 180) scale(650)">
+<stop offset="0%" stop-color="#3B82F6" stop-opacity="0.08"/>
+<stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+</radialGradient>
+
+<pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+<circle cx="2" cy="2" r="1" fill="#FFFFFF" opacity="0.08"/>
+</pattern>
+
+<clipPath id="bClip">
+<rect width="1600" height="360" rx="28"/>
+</clipPath>
+
+<style>
+
+.eyebrow{
+font-family:'Segoe UI',Arial,sans-serif;
+font-size:14px;
+font-weight:600;
+letter-spacing:4px;
+fill:#8B5CF6;
+}
+
+.quote{
+font-family:'Segoe UI',Arial,sans-serif;
+font-size:30px;
+font-weight:700;
+fill:#FFFFFF;
+}
+
+.quote2{
+font-family:'Segoe UI',Arial,sans-serif;
+font-size:24px;
+font-weight:400;
+fill:#A1A1AA;
+}
+
+.name{
+font-family:'Segoe UI',Arial,sans-serif;
+font-size:14px;
+font-weight:600;
+letter-spacing:2px;
+fill:#D4D4D8;
+}
+
+</style>
+
+</defs>
+
+<g clip-path="url(#bClip)">
+
+<rect width="1600" height="360" fill="url(#bgPanel)"/>
+
+<rect width="1600" height="360" fill="url(#centerGlow)"/>
+
+<rect width="1600" height="360" fill="url(#glowA)"/>
+
+<rect width="1600" height="360" fill="url(#glowB)"/>
+
+<rect width="1600" height="360" fill="url(#dots)"/>
+
+<text
+x="800"
+y="125"
+text-anchor="middle"
+class="eyebrow">
+DEVELOPER PHILOSOPHY
+</text>
+
+<text
+x="800"
+y="185"
+text-anchor="middle"
+class="quote">
+Code that works is the beginning, not the finish line.
+</text>
+
+<text
+x="800"
+y="225"
+text-anchor="middle"
+class="quote2">
+Clear enough to trust, intelligent enough to be worth trusting.
+</text>
+
+<rect
+x="690"
+y="255"
+width="220"
+height="44"
+rx="22"
+fill="#FFFFFF"
+fill-opacity="0.05"
+stroke="#FFFFFF"
+stroke-opacity="0.10"/>
+
+<text
+x="800"
+y="282"
+text-anchor="middle"
+class="name">
+— PRIYANSHI PITRODA
+</text>
+
+</g>
+
 </svg>
