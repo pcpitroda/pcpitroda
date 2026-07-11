@@ -52,9 +52,9 @@ class Priyanshi:
 ```
 
 </td>
-<td width="42%" valign="top" align="center">
+<td width="42%" valign="middle" align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="AI network illustration" />
+<img src="./assets/hero.svg" width="85%" alt="AI network illustration" />
 
 </td>
 </tr>
@@ -446,8 +446,8 @@ A JSP-based booking platform that lets event organisers discover and book music 
 
 <br/>
 
-<a href="mailto:pcpitroda5@gmail.com">
-  <img src="https://img.shields.io/badge/Email-pcpitroda5%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B" />
+<a href="mailto:pcpitroda05@gmail.com">
+  <img src="https://img.shields.io/badge/Email-pcpitroda05%40gmail.com-6366F1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=09090B" />
 </a>
 <a href="https://linkedin.com/in/priyanshi-pitroda">
   <img src="https://img.shields.io/badge/LinkedIn-priyanshi--pitroda-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=09090B" />
