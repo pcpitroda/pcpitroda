@@ -1,0 +1,58 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tLine" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <clipPath id="tClip"><rect width="1600" height="420" rx="28"/></clipPath>
+    <style>
+      .tbg { fill: #09090B; }
+      .stop { animation: rise 3.4s ease-in-out infinite; }
+      @keyframes rise { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      .year { font: 600 14px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #6366F1; letter-spacing: 2px; }
+      .label { font: 600 18px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #FFFFFF; }
+      .desc { font: 400 13.5px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #A1A1AA; }
+    </style>
+  </defs>
+  <g clip-path="url(#tClip)">
+    <rect width="1600" height="420" class="tbg"/>
+    <line x1="120" y1="210" x2="1480" y2="210" stroke="url(#tLine)" stroke-width="2"/>
+
+    <!-- Node 1 -->
+    <g class="stop">
+      <circle cx="220" cy="210" r="9" fill="#09090B" stroke="#3B82F6" stroke-width="3"/>
+      <text x="220" y="150" text-anchor="middle" class="year">2022</text>
+      <text x="220" y="176" text-anchor="middle" class="label">Started BCA</text>
+      <text x="220" y="256" text-anchor="middle" class="desc">First lines of code,</text>
+      <text x="220" y="274" text-anchor="middle" class="desc">first real curiosity.</text>
+    </g>
+
+    <!-- Node 2 -->
+    <g class="stop" style="animation-delay:0.4s">
+      <circle cx="580" cy="210" r="9" fill="#09090B" stroke="#6366F1" stroke-width="3"/>
+      <text x="580" y="150" text-anchor="middle" class="year">2024</text>
+      <text x="580" y="176" text-anchor="middle" class="label">Began MCA</text>
+      <text x="580" y="256" text-anchor="middle" class="desc">Parul University —</text>
+      <text x="580" y="274" text-anchor="middle" class="desc">deeper into systems &amp; AI.</text>
+    </g>
+
+    <!-- Node 3 -->
+    <g class="stop" style="animation-delay:0.8s">
+      <circle cx="940" cy="210" r="10" fill="#09090B" stroke="#8B5CF6" stroke-width="3.4"/>
+      <text x="940" y="150" text-anchor="middle" class="year">2025</text>
+      <text x="940" y="176" text-anchor="middle" class="label">Built DeepVision AI</text>
+      <text x="940" y="256" text-anchor="middle" class="desc">React + Flask + PyTorch,</text>
+      <text x="940" y="274" text-anchor="middle" class="desc">detecting AI-generated images.</text>
+    </g>
+
+    <!-- Node 4 -->
+    <g class="stop" style="animation-delay:1.2s">
+      <circle cx="1300" cy="210" r="9" fill="#09090B" stroke="#3B82F6" stroke-width="3"/>
+      <text x="1300" y="150" text-anchor="middle" class="year">now</text>
+      <text x="1300" y="176" text-anchor="middle" class="label">Shipping SmartSupply AI</text>
+      <text x="1300" y="256" text-anchor="middle" class="desc">React + Firebase inventory</text>
+      <text x="1300" y="274" text-anchor="middle" class="desc">intelligence, in progress.</text>
+    </g>
+  </g>
+</svg>

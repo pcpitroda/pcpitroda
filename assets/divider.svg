@@ -1,0 +1,19 @@
+<svg width="1600" height="64" viewBox="0 0 1600 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dGrad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#09090B" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="88%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .node { animation: glow 2.6s ease-in-out infinite; }
+      @keyframes glow { 0%, 100% { opacity: 0.5; r: 3; } 50% { opacity: 1; r: 5; } }
+    </style>
+  </defs>
+  <line x1="0" y1="32" x2="1600" y2="32" stroke="url(#dGrad)" stroke-width="1.4"/>
+  <circle class="node" cx="400" cy="32" r="3.5" fill="#3B82F6"/>
+  <circle class="node" cx="800" cy="32" r="3.5" fill="#6366F1" style="animation-delay:0.7s"/>
+  <circle class="node" cx="1200" cy="32" r="3.5" fill="#8B5CF6" style="animation-delay:1.4s"/>
+</svg>

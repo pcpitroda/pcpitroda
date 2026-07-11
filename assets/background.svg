@@ -1,0 +1,36 @@
+<svg width="1600" height="360" viewBox="0 0 1600 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgPanel" x1="0" y1="0" x2="1600" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D0D12"/>
+      <stop offset="100%" stop-color="#09090B"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.5">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.85" r="0.55">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#FFFFFF" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="bClip"><rect width="1600" height="360" rx="28"/></clipPath>
+    <style>
+      .mark { font: 700 120px Georgia, 'Times New Roman', serif; fill: #FFFFFF; fill-opacity="0.05"; }
+      .float { animation: fl 8s ease-in-out infinite; }
+      @keyframes fl { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    </style>
+  </defs>
+  <g clip-path="url(#bClip)">
+    <rect width="1600" height="360" fill="url(#bgPanel)"/>
+    <rect width="1600" height="360" fill="url(#dots)"/>
+    <rect width="1600" height="360" fill="url(#glowA)"/>
+    <rect width="1600" height="360" fill="url(#glowB)"/>
+    <text x="70" y="180" class="mark" fill-opacity="0.06">“</text>
+    <text x="1440" y="330" class="mark" fill-opacity="0.06" text-anchor="end">”</text>
+    <g class="float">
+      <rect x="740" y="150" width="120" height="60" rx="14" fill="#FFFFFF" fill-opacity="0.02" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    </g>
+  </g>
+</svg>
