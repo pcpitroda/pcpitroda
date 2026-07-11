@@ -27,30 +27,30 @@
     <!-- Main title -->
     <text x="60" y="150" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5px">Tech Stack</text>
     
-    <!-- Static chips (no animations) -->
+    <!-- Static chips (no animations) - Better spacing -->
     
     <!-- Chip 1: AI / PyTorch -->
     <g>
-      <rect x="900" y="60" width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="965" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">AI / PyTorch</text>
+      <rect x="800" y="60" width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="865" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">AI / PyTorch</text>
     </g>
     
     <!-- Chip 2: React + Vite -->
     <g>
-      <rect x="1050" y="60" width="130" height="40" rx="20" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="1115" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">React + Vite</text>
+      <rect x="960" y="60" width="130" height="40" rx="20" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="1025" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">React + Vite</text>
     </g>
     
     <!-- Chip 3: Flask API -->
     <g>
-      <rect x="1200" y="60" width="120" height="40" rx="20" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="1260" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">Flask API</text>
+      <rect x="1120" y="60" width="120" height="40" rx="20" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="1180" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">Flask API</text>
     </g>
     
     <!-- Chip 4: Firebase -->
     <g>
-      <rect x="1340" y="60" width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
-      <text x="1405" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">Firebase</text>
+      <rect x="1270" y="60" width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="1335" y="86" text-anchor="middle" font-family="'Segoe UI', ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#E4E4E7">Firebase</text>
     </g>
   </g>
 </svg>
