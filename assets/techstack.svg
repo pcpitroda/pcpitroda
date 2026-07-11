@@ -1,0 +1,41 @@
+<svg width="1600" height="180" viewBox="0 0 1600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tsGrad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <clipPath id="tsClip"><rect width="1600" height="180" rx="24"/></clipPath>
+    <style>
+      .chip { animation: bob 4.5s ease-in-out infinite; }
+      @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      .eyebrow { font: 600 14px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #8B5CF6; letter-spacing: 4px; }
+      .title { font: 700 34px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #FFFFFF; letter-spacing: -0.5px; }
+      .chiptext { font: 600 13px 'Segoe UI', ui-sans-serif, system-ui, sans-serif; fill: #E4E4E7; }
+    </style>
+  </defs>
+  <g clip-path="url(#tsClip)">
+    <rect width="1600" height="180" fill="#09090B"/>
+    <line x1="0" y1="0" x2="1600" y2="0" stroke="url(#tsGrad)" stroke-width="1"/>
+
+    <text x="60" y="70" class="eyebrow">CAPABILITIES</text>
+    <text x="60" y="112" class="title">Tech Stack</text>
+
+    <g class="chip" transform="translate(900,64)">
+      <rect width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4"/>
+      <text x="65" y="26" text-anchor="middle" class="chiptext">AI / PyTorch</text>
+    </g>
+    <g class="chip" transform="translate(1050,40)" style="animation-delay:0.6s">
+      <rect width="130" height="40" rx="20" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.4"/>
+      <text x="65" y="26" text-anchor="middle" class="chiptext">React + Vite</text>
+    </g>
+    <g class="chip" transform="translate(1200,72)" style="animation-delay:1.2s">
+      <rect width="120" height="40" rx="20" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-opacity="0.4"/>
+      <text x="60" y="26" text-anchor="middle" class="chiptext">Flask API</text>
+    </g>
+    <g class="chip" transform="translate(1340,42)" style="animation-delay:1.8s">
+      <rect width="130" height="40" rx="20" fill="#6366F1" fill-opacity="0.12" stroke="#6366F1" stroke-opacity="0.4"/>
+      <text x="65" y="26" text-anchor="middle" class="chiptext">Firebase</text>
+    </g>
+  </g>
+</svg>

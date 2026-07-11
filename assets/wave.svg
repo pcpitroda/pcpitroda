@@ -1,0 +1,19 @@
+<svg width="1600" height="120" viewBox="0 0 1600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wGrad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.85"/>
+    </linearGradient>
+    <style>
+      .w1 { animation: sway 9s ease-in-out infinite; transform-origin: 800px 60px; }
+      .w2 { animation: sway 12s ease-in-out infinite reverse; transform-origin: 800px 60px; }
+      @keyframes sway { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-30px); } }
+    </style>
+  </defs>
+  <rect width="1600" height="120" fill="#09090B"/>
+  <path class="w2" d="M 0 80 C 200 40, 400 110, 600 70 S 1000 30, 1200 75 S 1500 100, 1600 60 L 1600 120 L 0 120 Z"
+        fill="url(#wGrad)" opacity="0.25"/>
+  <path class="w1" d="M 0 90 C 220 60, 420 120, 640 85 S 1020 55, 1240 92 S 1520 115, 1600 80 L 1600 120 L 0 120 Z"
+        fill="url(#wGrad)" opacity="0.45"/>
+</svg>
