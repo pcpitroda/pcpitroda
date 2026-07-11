@@ -1,156 +1,94 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Priyanshi Pitroda — Master of Computer Applications" />
+
+# Hi there, I'm Priyanshi Pitroda 👋
+
+### Software Developer • AI Enthusiast • Full Stack Web Developer
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=24&pause=1000&center=true&vCenter=true&width=650&lines=Building+AI+Powered+Applications;Full+Stack+Developer;React+%7C+Java+%7C+Python;Always+Learning+New+Technologies" />
+
 </div>
 
-<br/>
+---
+
+## 👩‍💻 About Me
+
+I'm **Priyanshi Pitroda**, an MCA student passionate about creating modern web applications and AI-powered solutions.
+
+I enjoy solving real-world problems through technology while continuously learning new frameworks, tools, and emerging technologies.
+
+Currently focusing on:
+
+- 🤖 Artificial Intelligence
+- 🌐 Full Stack Web Development
+- ⚛️ React.js
+- 🧠 Deep Learning
+- 🔥 Flask APIs
+- 📱 Responsive UI Design
+
+---
+
+## 🚀 Tech Stack
+
+### Languages
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=java,python,c,cpp,js" />
+
+</p>
+
+### Frontend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=html,css,react,vite" />
+
+</p>
+
+### Backend
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=php,flask" />
+
+</p>
+
+### Database
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=mysql,firebase" />
+
+</p>
+
+### Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+
+</p>
+
+---
+
+## 🌱 Currently Learning
+
+- Advanced React
+- Machine Learning
+- REST APIs
+- AI Deployment
+- System Design
+
+---
+
+## 💬 Quote
+
+> "Every great application starts with one simple idea."
+
+---
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
 
-## The Trajectory
+### Thanks for visiting my profile ❤️
 
-I am a Master of Computer Applications (MCA) student focusing on the synthesis of artificial intelligence, machine learning, and structured web development. Rather than separating logical reasoning from system architecture, I work at their intersection — developing systems where models feel intuitive, telemetry flows naturally, and data points align into readable structures.
-
-<br/>
-
-<div align="center">
-  <img src="assets/journey.svg" width="100%" alt="Journey Timeline" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
-
-## Focus Areas
-
-<br/>
-
-<div align="center">
-  <img src="assets/focus-areas.svg" width="100%" alt="Core Compasses & Focus Areas" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
-
-## Selected Artifacts
-
-<br/>
-
-<div align="center">
-  <img src="assets/project-deepvision.svg" width="100%" alt="DeepVision AI Project" />
-  <br/>
-  <a href="https://github.com/pcpitroda"><img src="assets/badge-repo.svg" width="130" alt="Repository" /></a>
-  <a href="#"><img src="assets/badge-live.svg" width="130" alt="Launch Live" /></a>
-</div>
-
-<br/>
-<br/>
-
-<div align="center">
-  <img src="assets/project-smarthome.svg" width="100%" alt="Smart Home Website Project" />
-  <br/>
-  <a href="https://github.com/pcpitroda"><img src="assets/badge-repo.svg" width="130" alt="Repository" /></a>
-  <a href="#"><img src="assets/badge-live.svg" width="130" alt="Launch Live" /></a>
-</div>
-
-<br/>
-<br/>
-
-<div align="center">
-  <img src="assets/project-musicartist.svg" width="100%" alt="Music Artist Website Project" />
-  <br/>
-  <a href="https://github.com/pcpitroda"><img src="assets/badge-repo.svg" width="130" alt="Repository" /></a>
-  <a href="#"><img src="assets/badge-live.svg" width="130" alt="Launch Live" /></a>
-</div>
-
-<br/>
-<br/>
-
-<div align="center">
-  <img src="assets/project-ipl.svg" width="100%" alt="IPL Analysis Project" />
-  <br/>
-  <a href="https://github.com/pcpitroda"><img src="assets/badge-repo.svg" width="130" alt="Repository" /></a>
-</div>
-
-<br/>
-<br/>
-
-<div align="center">
-  <img src="assets/project-nlp.svg" width="100%" alt="NLP Web App Project" />
-  <br/>
-  <a href="https://github.com/pcpitroda"><img src="assets/badge-repo.svg" width="130" alt="Repository" /></a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
-
-## Code Graph
-
-<br/>
-
-<div align="center">
-  <img src="assets/dashboard.svg" width="100%" alt="GitHub Stats & Activity Dashboard" />
-</div>
-
-<br/>
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pcpitroda/pcpitroda/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pcpitroda/pcpitroda/output/pacman-contribution-graph.svg">
-    <img alt="Pac-Man eating my GitHub contributions" src="https://raw.githubusercontent.com/pcpitroda/pcpitroda/output/pacman-contribution-graph.svg" width="100%" />
-  </picture>
-  <br/>
-  <sub>Every dot is a real commit — Pac-Man just makes it fun to look at.</sub>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
-
-## Current Coordinates
-
-<br/>
-
-<div align="center">
-  <img src="assets/goals.svg" width="100%" alt="Current Goals & Explorations" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-</div>
-
-## Digital Ports
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/pcpitroda"><img src="assets/connect-github.svg" width="24%" alt="GitHub Profile" /></a>
-  <a href="https://linkedin.com/in/pcpitroda"><img src="assets/connect-linkedin.svg" width="24%" alt="LinkedIn Profile" /></a>
-  <a href="mailto:pcpitroda@example.com"><img src="assets/connect-email.svg" width="24%" alt="Email Priyanshi" /></a>
-  <a href="#"><img src="assets/connect-portfolio.svg" width="24%" alt="Portfolio Site" /></a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/divider.svg" width="100%" alt="" />
-  <br/>
-  <sub>Learning. Building. Growing.</sub>
-  <br/>
-  <sub>Synthesized with academic rigor.</sub>
 </div>
